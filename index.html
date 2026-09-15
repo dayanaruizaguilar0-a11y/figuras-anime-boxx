@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <header>
+<div class="logo container py-3">
+    <img src="IMG/logoanime.jpe" width="50px">
+    <h2>TU MUNDO <br><span>ANIME BOX</span></h2>
+</div>
+
+
+    </header>
+
+<main>
+    <img class="imagens" src="IMG/ONE.png" width="550px">
+<div class="portada">
+
+<div class="titulo">
+    <h1>anime <span>box</span> </h1>
+    <h1>escoge tu figura favorita</h1>
+    <p>tu mundo anime en una sola caja</p>
+    <h3>pide tu figura </h3>
+</div>
+</div>
+
+ <h2 class="subti">lo mas reciente en <span>stock</span></h2>
+ 
+<section class="tarjetas row g-3 " id="catalogo">
+   
+
+    <div class="contene col-4" >
+
+        <div class="card">
+
+        <div class="galeria">
+   <img src="${producto[i].imagenes[0]}" alt="${producto[i].nombre}">
+    <img src="${producto[i].imagenes[1]}" alt="${producto[i].nombre}">
+    <img src="${producto[i].imagenes[2]}" alt="${producto[i].nombre}">
+            
+</div>
+        <div class="card-body">
+            <h3 class="card-title">nombre</h3>
+            <p card-text>figura de coleccion</p>
+            <h4> bs.200</h4>
+            <a href="#" class="btn btn-primary">pedir</a>
+
+        </div>
+
+        </div>
+
+        
+         </div>
+
+</section>
+
+<button id="vermas" class="btn btn-primary">
+    ver mas
+</button>
+</main>
+
+<footer>
+    <div class="pie">
+        <h2>unete a nuestras redes sociales para que no te pierdas de ninguna novedad</h2>
+        <div class="imgrede">
+            <p>tiktok</p>
+            <img src="IMG/titokqr.jpe" width="90px"><br>
+            <a href="#">https://www.tiktok.com/@anime23todoloquebuscas?_r=1&_t=ZS-99lKqQa5etz</a>
+
+        </div>
+    </div>
+</footer>
+<script src="script.js"></script>
+ 
+</body>
+</html>
